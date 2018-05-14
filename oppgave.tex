@@ -1,0 +1,164 @@
+\documentclass[a4paper,norsk,12pt]{report}
+
+\usepackage[norsk]{babel}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow,tabularx}
+\usepackage{setspace}
+\usepackage{hyperref}
+\onehalfspacing
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\renewcommand{\arraystretch}{2}
+\renewcommand*{\chaptername}{Del}
+
+\pagestyle{empty}
+
+\begin{document}
+\chapter{Bakgrunn og teorigrunnlag}
+\chapter{}
+\section{Datainnsamling}
+For å undersøke om det er forskjell i læringseffekt når undervisningen organiseres rundt forelesninger eller når den organiseres rundt oppgaveregning med tilhørende diskusjon har jeg testet begge studentgruppene før og etter nytt fagstoff ble undervist. Testen er av en slik art at man selv uten fagkunnskaper vil være i stand til å gjøre seg opp en mening om hva som er riktig svar, men testen er designet for å avsløre vanlige misoppfatninger. Dermed vil man forvente at en student uten aktuelle fagkunnskaper vil få en dårlig uttelling.
+
+I forbindelse med testing av forkunnskaper har jeg også bedt studentene om å oppgi litt informasjon om bakgrunnen deres. Spesifikt har jeg spurt om:
+\begin{itemize}
+\item
+	Hvilke matematikk-kurs de har tatt på videregående skole
+\item
+	Hvilke fysikk-kurs de har tatt på videregående skole
+\item
+	Om de har vært gjennom realfagskurs eller forkurs før de startet på høyskolestudiene
+\item
+	Hvilken karakter de fikk i MAT100/MA2-100/MAT108 (Matematikk-kurs ved HVL som gir nødvendig matematisk grunnlag for å studere fysikk).
+\end{itemize}
+
+\subsection{Beskrivelse av testen}
+Testen jeg bruker til å teste fysikk-kunnskapene til studentene heter Force Concept Inventory \cite{1992FCI}. Testen er utviklet ved Arizona State University og oversatt til norsk ved Skolelaboratoriet, Universitetet i Oslo. Testen består av 30 flervalgsoppgaver om krefter (Newtonsk mekanikk). Alle spørsmål er av ren kvalitativ art og tar dermed sikte på å teste fysikk-forståelse uavhengig av matematiske kunnskaper. 
+
+Force Concept Inventory oppfyller PhysPort\footnote{PhysPort (\url{https://www.physport.org/} er en ressursside for fysikk-undervisere med fokus på forsknings-basert undervisningspraksis. PhysPort er utviklet av American Association for Physics Teachers i samarbeid med Kansas State University.)} sine kriterier til "gull-standard", hvilket innebærer at \cite{2014arXiv1404.6500M}:
+\begin{itemize}
+\item
+Spørsmålene er basert på forskning på hvordan studenter tenker.
+\item
+Testen er validert ved hjelp av student-intervjuer.
+\item
+Testen er validert av fag-eksperter.
+\item
+Testen er validert med tilfredsstillende statistisk analyse.
+\item
+Testen er brukt ved flere institusjoner.
+\item
+Testen er brukt i forskning gjort av andre enn utviklerne av testen.
+\item
+Testen er brukt i minst en fagfelle-vurdert publikasjon.
+\end{itemize}
+
+\subsection{Beskrivelse av datainnsamlingen}
+Den samme testen ble gitt til studentene to ganger---i første undervisningsuke og i femte undervisningsuke, uken etter gjennomgang av den delen av pensum som er relevant for testen var ferdig. Studentene visste at de skulle testes på nytt, men de visste ikke at de to testene var identisk. De hadde heller ikke tilgang til testspørsmålene i tiden mellom de to testene. 
+
+Testingen ble gjennomført elektronisk ved hjelp av \emph{SMART response 2} som er innebygget i programmet \emph{SMART Notebook} \cite{smart} som er installert i alle undervisningsrom på HVL/Kronstad. Når dette programmet brukes logger studentene seg inn på en nettside og får opp spørsmålene og leverer svar på egen datamaskin/telefon. De kan under hele testen gå frem og tilbake mellom de ulike spørsmålene, men de har kun tilgang til spørsmålene i den tiden datainnsamlingen er aktivert. Studentene svarte individuelt og ble bedt om å ikke diskutere spørsmålene underveis, men dette ble ikke håndhevet strengt. 
+
+For at studentene skulle kunne svare anonymt samtidig som det var mulig å koble svar fra samme student avgitt på testen før undervisningsperioden og testen etter eksamensperioden ble studentene bedt om å logge seg inn i med et selvvalgt kallenavn. Det ble understreket før den første testen at de måtte bruke samme kallenavn også på den andre testen. Dette ble igjen understreket før den andre testen, og de fikk da også se listen over kallenavn som var brukt ved første test for å lettere kunne huske hva de selv hadde brukt. Det var imidlertid en del som likevel ikke logget seg inn med likt kallenavn på de to testene, og dermed måtte en del data forkastes. Det fantes ikke noen kontrollmekanisme som sikret at det i de tilfellene samme kallenavn var brukt på begge testene, faktisk var samme student begge ganger.
+
+Både ved testen før undervisning og etter undervisning ble studentene bedt om å svare på om de godkjente at svarene dere blir brukt til læringsanalyse. Svarene fra studenter som ikke godkjente dette er ikke brukt videre i analysen.
+
+\subsection{Beskrivelse av datasettene}
+Data-innsamlingen som er beskrevet ovenfor gir opphav til tre datasett:
+\begin{itemize}
+\item
+	bakgrunnsinformasjon (bgData)
+\item
+	testresultater fra test før undervisning (preData)
+\item
+	testresultater fra test etter undervisning (postData)
+\end{itemize}
+Siden læringsanalysen krever kobling av de ulike datasettene har jeg gjort følgende utvalg fra disse datasettene for bruk i analyse
+\begin{itemize}
+\item
+	bakgrunnsinformasjon og testresultater for de studentene der kobling av disse er vellykket (matchPreData)
+\item
+	testresultater fra før-test og etter-test for de studentene der kobling av disse er vellykket (matchPostData)
+\end{itemize}
+I koblingen mellom preData og postData krever jeg ikke en samtidig kobling med bgData. Dette ville vært nødvendig hvis jeg dataanalysen skulle undersøkt om skole/studie-bakgrunn påvirker læringen, men datasettet jeg har samlet inn er for lite til å kunne gjøre en meningsfull analyse av dette.
+
+Tabell \ref{tab:predata}-\ref{tab:postdata} oppsummerer hvor mange studenter fra hvert av kursene som er med i hvert datasett.
+\begin{table}[tp]
+\begin{tabularx}{\textwidth}{|*{3}{Y|}}
+\hline
+& DAT106 & BYG103/BYG141 \\
+\hline
+bgData & 26 & 113 \\
+\hline
+preData & 27 & 115 \\
+\hline
+matchPreData & 24  & 89  \\
+\hline
+\end{tabularx}
+\caption{Antall studenter per kurs og per datasett i data samlet inn før undervisning. bgData er data om studentens skole/studie-bakgrunn. preData er resultater fra testen før undervisning. matchPreData er de studentene der det er en vellykket kobling mellom bgData og preData.}
+\label{tab:predata}
+\end{table}
+
+\begin{table}[tp]
+\begin{tabularx}{\textwidth}{|*{3}{Y|}}
+\hline
+& DAT106 & BYG103/BYG141 \\
+\hline
+postData & & \\
+\hline
+matchPostData & &  \\
+\hline
+\end{tabularx}
+\caption{Antall studenter per kurs og per datasett i data samlet inn etter undervisning. postData er resultater fra testen etter undervisning. matchPostData er de studentene der det er en vellykket kobling mellom preData og postData.}
+\label{tab:postdata}
+\end{table}
+
+\section{Undervisningsform}
+\subsection{BYG103/BYG141}
+Kurset BYG103/BYG141 er et felleskurs for bygg- og anleggsingeniør-studenter i Bergen og Førde (derav to ulike kurskoder). Studentene tar dette kurset i andre semester. I første semester har studentene tatt matematikk-kurset MAT100 (Bergen) eller MA2-100 (Førde) som inneholder blant annet vektorregning, derivasjon og integrasjon som er nødvendige forutsetninger for lærestoffet i BYG103/BYG141. Parallelt med fysikk-forelesningen i BYG103/BYG141 foreleses det også statikk som gir studentene ytterligere trening i vektorregning.
+
+BYG103 har [xx] studenter og BYG141 har [yy] studenter. Undervisningen er lokalisert i Auditorium 2 (187 plasser) i Bergen med videokonferanse til Auditorium Nordfjord i Førde. Fysikk-delen av kurset har tre undervisningstimer i uken; tirsdager fra 14:15-17:00. De to første undervisningstimene bruker jeg til forelesning. I hovedsak bruker jeg en tradisjonell forelesningform, men for å skape litt variasjon bryter jeg innimellom av forlesningene med korte øvelser for studentene. Det er i hovedsak to typer avbrudd jeg bruker:
+\begin{itemize}
+\item
+Studentene får en enkel regneoppgave som konkretiserer teori som nettopp er gjennomgått. Studentene får her først en del minutter for å forsøke å løse oppgaven selv---gjerne i samarbeid med den/de som sitter ved siden av---før jeg gjennomgår oppgaven i plenum.
+\item
+Kvalitative flervalgsspørsmål besvart via telefon/datamaskin. Spørsmålene er laget for å undersøke om studentene har forstått teorien vi nettopp har gjennomgått. Statistikk over fordelingen av svar er straks tilgjengelig, slik at jeg kan bruke ekstra tid på å diskutere de temaene der det viser seg at mange ikke har god nok forståelse ennå.
+\end{itemize}
+Den siste undervisningstimen brukes til å gjennomgå regneoppgaver. På grunn av stort antall studenter og fordeling på to campuser ser jeg det ikke som en aktuell mulighet å la studentene sitte å regne selv mens jeg går rundt å hjelper. I stedet får de oppgavesettet omtrent en uke på forhånd slik at de på egenhånd kan forsøke på oppgavene før jeg viser i plenum hvordan de kan løses. I tillegg lager jeg skriftlig løsningsforslag som jeg gjør tilgjengelig etter at regnetimen er ferdig.
+
+\subsection{DAT106}
+Kurset DAT106 er et kurs for dataingeniørstudenter. Kurset består av 7 studiepoeng fysikk og 3 studiepoeng kjemi. Studentene tar kurset i fjerde semester. Tidligere i studentene har studentene tatt matematikk-kursene MAT101, MAT102 og MAT108. MAT108 som studentene tok i andre semester inneholder vektorregning, derivasjon- og integrasjon.
+
+
+
+
+\section{Resultater}
+\begin{table}
+\begin{tabularx}{\textwidth}{|*{7}{Y|}}
+\hline
+\multirow{2}{*}{}& \multicolumn{3}{c|}{Ja} & \multicolumn{3}{c|}{Nei} \\
+\cline{2-7}
+& N & Gj.sn. & Std.av. &  N & Gj.sn. & Std.av. \\
+\hline
+Fys 1 & 84 & $46\%$ & $20\%$ & 29 &  $39\%$ & $21\%$ \\ 
+\hline
+Fys 2 & 45 & $46\%$ & $20\%$ & 68 &  $43\%$ & $21\%$ \\ 
+\hline
+ R1 & 83 & $45\% $ & $20\%$ & 30 & $42\%$ & $23\%$ \\
+\hline
+ R2 & 86 & $46\% $ & $21\%$ & 27 & $37\%$ & $17\%$ \\
+\hline
+Real & 13 & $38\%$ & $15\%$ & 100 & $44\%$ & $21\%$ \\
+\hline
+\end{tabularx}
+\caption{}
+\label{tab:bakgrunnBetydning}
+\end{table}
+
+\chapter{Diskusjon av resultatene}
+
+\bibliographystyle{apalike}
+\bibliography{referanser}
+\end{document}
