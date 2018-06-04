@@ -178,7 +178,7 @@ Datasettet som er samlet inn er ikke stort nok til å gjøre en studie av i hvil
 Figur \ref{fig:fysmat} viser andel riktig på før-testen for studenter med/uten Fysikk 2 (venstre) og Matematikk R2 (høyre) fra videregående skole. Dette er kurs som ikke utgjør en del av opptakskravet for ingeniørstudiene, men som gir studentene en større fordypning i fysikk og matematikk enn minimumskravet. Det er dermed interessant å undresøke om dette påvirker testresultatene.
 \begin{figure}[p]
 	\includegraphics[width=.48\textwidth]{./fys2}
-	\includegraphics[width=.48\textwidth]{./r2}
+%	\includegraphics[width=.48\textwidth]{./r2}
 	\caption{}
 	\label{fig:fysmat}
 \end{figure}
@@ -191,27 +191,7 @@ Elever som ikke har tilstrekkelig fordypning i matematikk og fysikk fra videreg�
 \end{figure}
 
 
-\begin{table}[p]
-\begin{tabularx}{\textwidth}{|*{7}{Y|}}
-\hline
-\multirow{2}{*}{}& \multicolumn{3}{c|}{Ja} & \multicolumn{3}{c|}{Nei} \\
-\cline{2-7}
-& N & Gj.sn. & Std.av. &  N & Gj.sn. & Std.av. \\
-\hline
-Fys 1 & 84 & $46\%$ & $20\%$ & 29 &  $39\%$ & $21\%$ \\ 
-\hline
-Fys 2 & 45 & $46\%$ & $20\%$ & 68 &  $43\%$ & $21\%$ \\ 
-\hline
- R1 & 83 & $45\% $ & $20\%$ & 30 & $42\%$ & $23\%$ \\
-\hline
- R2 & 86 & $46\% $ & $21\%$ & 27 & $37\%$ & $17\%$ \\
-\hline
-Real & 13 & $38\%$ & $15\%$ & 100 & $44\%$ & $21\%$ \\
-\hline
-\end{tabularx}
-\caption{}
-\label{tab:bakgrunnBetydning}
-\end{table}
+
 
 \chapter{Diskusjon av resultatene}
 
@@ -225,15 +205,39 @@ For å evaluere endringen mellom første og andre test er det nyttig å studere 
 	\hat{\mu}_\text{BYG103} &= 0.048,\quad\quad \hat{\sigma}_{\mu,\text{BYG103}} &= 0.028. \\
 \end{aligned}
 \end{displaymath}
-Vi ser at spredningen i forbedringen til de ulike studentene innad i hver gruppe er for stor til at tallmaterialet som er tilgjengelig kan brukes til å konkludere med at den ene undervisningsformen har gitt bedre resultater enn den andre. Om vi fortsetter å bruke antakelsen at usikkerheten på estimatoren til standardavviket skalerer som $1/\sqrt{n}$ der $n$ er antall studenter i gruppen viser disse tallen at det hadde vært behov for omlag tre ganger så mange studenter i undersøkelsen for å kunne få et signifikant resultat.
+Vi ser at spredningen i forbedringen til de ulike studentene innad i hver gruppe er for stor til at tallmaterialet som er tilgjengelig kan brukes til å konkludere med at den ene undervisningsformen har gitt bedre resultater enn den andre. Om vi fortsetter å bruke antakelsen at usikkerheten på estimatoren til standardavviket skalerer som $1/\sqrt{n}$ der $n$ er antall studenter i gruppen viser disse tallen at det hadde vært behov for omlag tre ganger så mange studenter i studien for å kunne få et signifikant resultat.
 
-Selv om tallmaterialet fra undersøkelsen ikke gir grunnlagt for å svare på det primære spørsmålet jeg ønsket å undersøke er det verdt å studere det innsamlete datasettet videre for å se om det er andre interessante konklusjoner det er mulig å trekke. Figur \ref{fig:scatter} fremstiller sammenghengen mellom resultat på testen før undervisning og forbedringen til testen etter undervisning. Dette gir mulighet til å undersøke om undervisningen har ulik effekt på studenter med ulikt utgangspunkt. På samme måte som i figur \ref{fig:forbedring} viser også denne figuren absolutt forbedring i venstre diagram og relativ forbedring i høyre diagram. Diagrammet med relativ forbedring er det som er enklest å tolke. For gruppen med forelesninger (BYG103/BYG141) ser vi at det ikke er noen sammenheng mellom utgangspunktet og hvor mye studentene forbedret seg. Det ser altså ut til at effekten av forelesningene er like stor for både de sterkeste og svakeste av studentene. Her er det imidlertid verdt å minne på at tallmaterialet er svært begrenset, så denne konklusjonen er meget svak.
+Selv om tallmaterialet fra studien ikke gir grunnlagt for å svare på det primære spørsmålet jeg ønsket å undersøke er det verdt å studere det innsamlete datasettet videre for å se om det er andre interessante konklusjoner det er mulig å trekke. Figur \ref{fig:scatter} fremstiller sammenghengen mellom resultat på testen før undervisning og forbedringen til testen etter undervisning. Dette gir mulighet til å undersøke om undervisningen har ulik effekt på studenter med ulikt utgangspunkt. På samme måte som i figur \ref{fig:forbedring} viser også denne figuren absolutt forbedring i venstre diagram og relativ forbedring i høyre diagram. Diagrammet med relativ forbedring er det som er enklest å tolke. For gruppen med forelesninger (BYG103/BYG141) ser vi at det ikke er noen sammenheng mellom utgangspunktet og hvor mye studentene forbedret seg. Det ser altså ut til at effekten av forelesningene er like stor for både de sterkeste og svakeste av studentene. Her er det imidlertid verdt å minne på at tallmaterialet er svært begrenset, så denne konklusjonen er meget svak.
 
 Resultatet fra gruppen med omvendt klasserom (DAT106) er litt mer komplisert---først og fremst på grunn av de to studenten med stor negativ relativ forbedring. Som diskutert ovenfor er dette en artefakt som kan oppstå med denne måten å kvantisere forbedringen mellom første og andre test. Siden den relative forbedringen er definert som 
 \begin{displaymath}
 	\eta_\text{rel} = \frac{S_\text{etter}-S_\text{før}}{1 - S_\text{før}}.
 \end{displaymath}
-der $S_\text{før/etter}$ er andel riktig i testen før/etter undervisning, vil selv en liten negativ endring i teller gi et stort utslag dersom $S_\text{før}$ er nær 1 slik at nevner er liten. Dette gjør at det er rimelig å tillegge disse datapunktene liten vekt. Hvis vi fullstendig ignorerer de to datapunktene med stor negativ relativ forbedring ser vi at det er en tydelig positiv korrelasjon mellom andel riktig i testen før undervisningsperioden og den relative forbedringen. Denne positive korrelasjonen betyr at det er studentene med best utgangspunkt som forbedret seg mest i løpet av undervisningsperioden. Igjen er konklusjonen svak på grunn av det lille datasettet, men undersøkelsen tyder på at omvendt klasserom fungerer best for studentene som kom til kurset med det beste utgangspunktet. 
+der $S_\text{før/etter}$ er andel riktig i testen før/etter undervisning, vil selv en liten negativ endring i teller gi et stort utslag dersom $S_\text{før}$ er nær 1 slik at nevner er liten. Dette gjør at det er rimelig å tillegge disse datapunktene liten vekt. Hvis vi fullstendig ignorerer de to datapunktene med stor negativ relativ forbedring ser vi at det er en tydelig positiv korrelasjon mellom andel riktig i testen før undervisningsperioden og den relative forbedringen. Denne positive korrelasjonen betyr at det er studentene med best utgangspunkt som forbedret seg mest i løpet av undervisningsperioden. Igjen er konklusjonen svak på grunn av det lille datasettet, men studien tyder på at omvendt klasserom fungerer best for studentene som kom til kurset med det beste utgangspunktet. 
+
+\section{Sammenheng mellom test-resultater og studiebakgrunn}
+I denne delen studerer jeg sammenhengen mellom resultater på testen før undervisningsperioden og ulike aspekter ved studentenes bakgrunn før kurset DAT106/BYG103/BYG141. For å redusere effekten av statistiske fluktuasjoner mest mulig behandler jeg her alle studentene som \'en gruppe i stedet for å dele dem inn etter hvilket kurs de tar. Siden denne delen av analysen kun ser på resultatene fra testen før undervisningsperioden, og siden det kun er en liten forskjell i hvor godt studentene i de to gruppene gjorde det på den første testen introduserer ikke dette noen problematisk bias.
+
+\subsection{Fysikk 2}
+I rammeplanen for ingeniørutdanning {\color{red}[Ref]} står det:
+\begin{quote}I ingeniørutdanning er det viktig å forstå fysisk lover. Både klassisk og moderne fysikk inngår i faget Fysikk 1 i videregående opplæring. Fysikk i ingeniørutdanning skal bygge videre på dette. Fysikkundervisningen for alle studieretninger må inneholde en konsolidering og fordypning av studentenes kunnskaper i klassisk ([\ldots]) og moderne fysikk.\end{quote}
+Fysikk 1 er det første fordypningsfaget i fysikk (2.~klasse i videregående skole) og er spesielt nevnt siden dette faget utgjør en del av opptakskravene til ingeniørstudier. I tillegg tilbys også faget Fysikk 2 (3.~klasse videregående skole) som delvis bygger videre på Fysikk 1, men også introduserer en del nye emner. Det kreves ikke Fysikk 2 ved opptak til ingeniørstudier. 
+
+Testen som er brukt i denne studien omhandler kun emner som er en del av Fysikk 1, men dette er emner som konsolideres og videreutvikles i Fysikk 2. Det er derfor grunn for å forvente at studenter som har vært gjennom Fysikk 2 vil få bedre resultater på testen før undervisning enn de studentene som kun har Fysikk 1, eventuelt realfagskurs/forkurs (som har tilsvarende pensum som Fysikk 1). Som vi kan se fra figur \ref{fig:fys2} er dette imidlertid ikke tilfellet. Om vi på samme måte som ovenfor beregner gjennomsnittlig andel riktig på test før undervisningsperioden og estimert usikkerhet på dette finner vi
+\begin{displaymath}
+\begin{aligned}
+	\hat{\mu}_\text{med Fysikk 2} &= 0.44\pm 0.03, \\
+	\hat{\mu}_\text{uten Fysikk 2} &= 0.45\pm 0.02,
+\end{aligned}
+\end{displaymath}
+som bekrefter vurderingen ut fra histogrammet, nemlig at vi ikke kan måle noen forskjell i resultater for studenter med og uten Fysikk 2. 
+
+
+\subsection{Realfagskurs/forkurs}
+
+
+\subsection{Matematikk-kurs fra tidligere i studiet}
+I første semester av studiet tar studentene et matematikk-kurs som blant annet inkluderer temaer (derivasjon, integrasjon, vektorregning) som er viktig for å gjøre beregninger i fysikk-faget. Kurset har ulik fagkode og noen mindre forskjeller i pensum for de ulike studieretningene og studiestedene (DAT106: MAT108, BYG103: MAT100, BYG141: MA2-100), men den delen av pensum som er av størst betydning for fysikk-faget er inkludert i alle varianter. Studentene i DAT106 har i tillegg hatt et annet matematikk-kurs (MAT101) tidligere i studiet, men pensum i dette kurset er i svært liten grad relevant for den delen av fysikk-faget som denne studien omhandler. Spørsmålene i testen som er brukt i denne studien krever ingen beregninger, kun fysisk forståelse. Det er derfor ingen direkte kobling mellom det de har lært i matematikk-kurset og spørsmålene de blir bedt om å svare på
 
 
 \bibliographystyle{apalike}
