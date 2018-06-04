@@ -119,7 +119,7 @@ matchPostData & &  \\
 \subsection{BYG103/BYG141}
 Kurset BYG103/BYG141 er et felleskurs for bygg- og anleggsingeniør-studenter i Bergen og Førde (derav to ulike kurskoder). Studentene tar dette kurset i andre semester. I første semester har studentene tatt matematikk-kurset MAT100 (Bergen) eller MA2-100 (Førde) som inneholder blant annet vektorregning, derivasjon og integrasjon som er nødvendige forutsetninger for lærestoffet i BYG103/BYG141. Parallelt med fysikk-forelesningen i BYG103/BYG141 foreleses det også statikk som gir studentene ytterligere trening i vektorregning.
 
-BYG103 har [xx] studenter og BYG141 har [yy] studenter. Undervisningen er lokalisert i Auditorium 2 (187 plasser) i Bergen med videokonferanse til Auditorium Nordfjord i Førde. Fysikk-delen av kurset har tre undervisningstimer i uken; tirsdager fra 14:15-17:00. De to første undervisningstimene bruker jeg til forelesning. I hovedsak bruker jeg en tradisjonell forelesningform, men for å skape litt variasjon bryter jeg innimellom av forlesningene med korte øvelser for studentene. Det er i hovedsak to typer avbrudd jeg bruker:
+Undervisningen er lokalisert i Auditorium 2 (187 plasser) i Bergen med videokonferanse til Auditorium Nordfjord i Førde. Typisk antall fremmøtte til undervisningen er ca 100 i Bergen og mindre enn 10 i Førde. Fysikk-delen av kurset har tre undervisningstimer i uken; tirsdager fra 14:15-17:00. De to første undervisningstimene bruker jeg til forelesning. I hovedsak bruker jeg en tradisjonell forelesningform, men for å skape litt variasjon bryter jeg innimellom av forlesningene med korte øvelser for studentene. Det er i hovedsak to typer avbrudd jeg bruker:
 \begin{itemize}
 \item
 Studentene får en enkel regneoppgave som konkretiserer teori som nettopp er gjennomgått. Studentene får her først en del minutter for å forsøke å løse oppgaven selv---gjerne i samarbeid med den/de som sitter ved siden av---før jeg gjennomgår oppgaven i plenum.
@@ -129,13 +129,68 @@ Kvalitative flervalgsspørsmål besvart via telefon/datamaskin. Spørsmålene er
 Den siste undervisningstimen brukes til å gjennomgå regneoppgaver. På grunn av stort antall studenter og fordeling på to campuser ser jeg det ikke som en aktuell mulighet å la studentene sitte å regne selv mens jeg går rundt å hjelper. I stedet får de oppgavesettet omtrent en uke på forhånd slik at de på egenhånd kan forsøke på oppgavene før jeg viser i plenum hvordan de kan løses. I tillegg lager jeg skriftlig løsningsforslag som jeg gjør tilgjengelig etter at regnetimen er ferdig.
 
 \subsection{DAT106}
-Kurset DAT106 er et kurs for dataingeniørstudenter. Kurset består av 7 studiepoeng fysikk og 3 studiepoeng kjemi. Studentene tar kurset i fjerde semester. Tidligere i studentene har studentene tatt matematikk-kursene MAT101, MAT102 og MAT108. MAT108 som studentene tok i andre semester inneholder vektorregning, derivasjon- og integrasjon.
+Kurset DAT106 er et kurs for dataingeniørstudenter. Kurset består av 7 studiepoeng fysikk og 3 studiepoeng kjemi. Studentene tar kurset i fjerde semester. Tidligere i studiet har studentene tatt matematikk-kursene MAT101, MAT102 og MAT108. MAT108 som studentene tok i andre semester inneholder vektorregning, derivasjon- og integrasjon.
 
+Undervisningen er lokalisert i ulike klasserom på Kronstad. Typisk romstørrelse er til 40 personer, og typisk antall fremmøte er 20. Det er to dobbeltimer hver uke. Hver dobbeltime starter med en kort oppsummeringsforelesning av det lærestoffet som vi skal arbeide med i timen---og som studentene har blitt oppfordret til å lese på forhånd. Resten av tiden brukes til oppgaveregning. Jeg oppfordret studentene til å jobbe i grupper. I denne delen av av timen har jeg i hovedsak gått rundt å hjulpet studentene---fortrinnsvis ved å dytte diskusjonen deres i riktig retning mer enn å direkte fortelle dem hvordan problemet skal løses. Erfaringen min var at i noen studentgrupper fungerte dette svært bra: Studentene diskuterte ivrig sammen og fra det jeg kunne høre fikk de belyst problemet fra ulike sider. Når de følte at de enten var i en blindgate eller ikke ble enig om hvilken løsning som var riktig tok de meg med inn i diskusjonen. Andre studenter var langt mindre ivrige i diskusjonen, og spørsmålene deres var mer operasjonelle.
 
+Utvalge av oppgaver til regneøvingen er det samme som for BYG103/BYG141, og også DAT106-studentene fikk tilgang til skriftlig løsningsforslag etter hver undervisningsuke. 
 
 
 \section{Resultater}
-\begin{table}
+Figur \ref{fig:testScore} sammenligner fordelingen av testresultatene før (venstre) og etter (høyre) undervisningen for de to studentgruppene. Resultatene fra testen før undervisning inkluderer alle studentene i datasettet preData (115+27 studenter), mens resultatene fra testen etter undervisning inkluderer studentene fra datasettet matchPreData (89+24 studenter). Når en stor andel av studentene som deltok i testen første gang ikke deltok i testen andre gang kan resultater tolket ut fra disse histogrammene skyldes en utvalgsbias. Figur \ref{fig:testScoreMatch} viser derfor de samme histogrammene, men kun med studenter fra datasettet matchPreData inkludert. Histogrammet for resultater etter test er identisk i figur \ref{fig:testScore} og \ref{fig:testScoreMatch}, men er gjentatt for å gjøre sammenligningen enklere.
+\begin{figure}[p]
+	\includegraphics[width=.48\textwidth]{./preScoreAll}
+	\includegraphics[width=.48\textwidth]{./postScore}
+	\label{fig:testScore}
+	\caption{Sammenligning av testresultater for studenter fra kursene DAT106 og  BYG103/BYG141 før (venstre) og etter (høyre) undervisningsperioden. Histogrammet med før-resultater baserer seg på flere studenter enn histogrammet for etter-resultater siden færre studenter valgte å delta på testen andre gang.}
+\end{figure}
+
+\begin{figure}[p]
+	\includegraphics[width=.48\textwidth]{./preScore}
+	\includegraphics[width=.48\textwidth]{./postScore}
+	\label{fig:testScoreMatch}
+	\caption{Sammenligning av testresultater for studenter fra kursene DAT106 og  BYG103/BYG141 før (venstre) og etter (høyre) undervisningsperioden. Kun studenter som deltok på både før- og etter-testene er inkludert i histogrammene.}
+\end{figure}
+
+For de studentene som deltok på både før- og etter-testen er utviklingen i resultat vist i figur \ref{fig:forbedring}. Histogrammet til venstre viser absolutt forbedring, altså $S_\text{etter}-S_\text{før}$ der $\eta_\text{abs} = S_\text{før}$ og $S_\text{etter}$ er andel riktig i testen henholdsvis før og etter undervisningsperioden. Histogrammet til høyre viser den relative forbedringen definert som
+\begin{displaymath}
+	\eta_\text{rel} = \frac{S_\text{etter}-S_\text{før}}{1 - S_\text{før}}.
+\end{displaymath}
+Den relative forbedringen kan tolkes som hvor stor andel av spørsmålene som var feil besvart første gang som ble riktig besvart andre gang. Merk at denne variablen har en svakhet for studenter som hadde et svært godt resultat ved første test: Hvis en av disse studenten gjør kun \'en feil mer i andre forsøk enn i første forsøk får den relative forbedringen en stor negativ verdi.
+\begin{figure}[p]
+	\includegraphics[width=.48\textwidth]{./absForbedring}
+	\includegraphics[width=.48\textwidth]{./relForbedring}
+	\label{fig:forbedring}
+	\caption{}
+\end{figure}
+For å kunne undersøke hvorvidt studentens forkunnskaper påvirker hvor godt resultat de ulike gir er det i figur \ref{fig:scatter} vist resultat av før-testen plottet mot absolutt forbedring (venstre) og relativ forbedring (høyre). 
+\begin{figure}[p]
+	\includegraphics[width=.48\textwidth]{./absoluttForbedringScatter}
+	\includegraphics[width=.48\textwidth]{./relativForbedringScatter}
+	\label{fig:scatter}
+	\caption{}
+\end{figure}
+
+\subsection{Betydningen av studiebakgrunn}
+Datasettet som er samlet inn er ikke stort nok til å gjøre en studie av i hvilken grad ulike aspekter ved studentenes bakgrunn før de startet på DAT106 eller BYG103/BYG141 påvirker læringsutbyttet. Derfor begrenser dette avsnittet seg til å presentere resultater for sammenhengen mellom studentenes bakgrunn og resultatene de oppnådde på testen før undrevisningsperioden. Dette har imidlertid egen-interesse utover hovedmålsetningen med prosjektet mitt, og er derfor verdt å undersøke. Datasettet som er brukt for denne delen av studien er matchPreData. I noen tilfeller er imidlertid ikke alle studentene i dette datasettet inkludert, da matchingen ikke krever at de har svart på alle spørsmålene om studiebakgrunn.
+
+Figur \ref{fig:fysmat} viser andel riktig på før-testen for studenter med/uten Fysikk 2 (venstre) og Matematikk R2 (høyre) fra videregående skole. Dette er kurs som ikke utgjør en del av opptakskravet for ingeniørstudiene, men som gir studentene en større fordypning i fysikk og matematikk enn minimumskravet. Det er dermed interessant å undresøke om dette påvirker testresultatene.
+\begin{figure}[p]
+	\includegraphics[width=.48\textwidth]{./fys2}
+	\includegraphics[width=.48\textwidth]{./r2}
+	\label{fig:fysmat}
+	\caption{}
+\end{figure}
+Elever som ikke har tilstrekkelig fordypning i matematikk og fysikk fra videregående kan oppnå påkrevd kompetanse for å starte på ingeniørstudier gjennom å ta enten forkurs eller realfagskurs {\color{red}[Fyll inn detaljer. Snakk med Kristine]}. Figur \ref{fig:forkurs} viser andel riktig på før-testen for studenter som har bakrunn fra enten realfagskurs (venstre) eller forkurs (høyre). I begge tilfeller er resultatene sammenlignet med studenter som er tatt opp på studiet med tilstrekkelig fordypning i matematikk og fysikk fra videregående skole.
+\begin{figure}[p]
+	\includegraphics[width=.48\textwidth]{./real}
+%	\includegraphics[width=.48\textwidth]{./forkurs}
+	\label{fig:fysmat}
+	\caption{ Sammenligning av resultater for studenter som har tilstrekkelig matematikk- og fysikk-bakgrunn fra videregående skole (blå) med studenter som har tatt realfagskurs (venstre) eller forkurs (høyre) for å oppfylle opptakskravet til ingeniørstudier (rød).}
+\end{figure}
+
+
+\begin{table}[p]
 \begin{tabularx}{\textwidth}{|*{7}{Y|}}
 \hline
 \multirow{2}{*}{}& \multicolumn{3}{c|}{Ja} & \multicolumn{3}{c|}{Nei} \\
@@ -158,6 +213,7 @@ Real & 13 & $38\%$ & $15\%$ & 100 & $44\%$ & $21\%$ \\
 \end{table}
 
 \chapter{Diskusjon av resultatene}
+Det primære målet for denne studien var å undersøke om ''omvent klasserom''---som en representant for studentaktive læringsformer---gir bedre læringsutbytte for studentene enn ''klassisk forelesning''. En sammenligning av resultatene fra testen før undervisningsperioden og etter undervisningsperioden, vist i figur \ref{fig:testScore}, viser at begge studentgruppene har bedret resultatet. 
 
 \bibliographystyle{apalike}
 \bibliography{referanser}

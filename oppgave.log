@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.8.21)  11 MAY 2018 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.8.21)  4 JUN 2018 12:44
 entering extended mode
 **./oppgave.tex
 (oppgave.tex
@@ -617,7 +617,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
-(oppgave.aux)
+(oppgave.aux
+
+LaTeX Warning: Label `fig:fysmat' multiply defined.
+
+)
 \openout1 = `oppgave.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -634,8 +638,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
 \scratchdimen=\dimen130
@@ -693,13 +696,25 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
- [2
+
+
+LaTeX Warning: Citation `1992FCI' on page 2 undefined on input line 39.
+
+[2
 
 ]
+
+LaTeX Warning: Citation `2014arXiv1404.6500M' on page 3 undefined on input line
+ 41.
+
+
 Overfull \hbox (14.26816pt too wide) in paragraph at lines 41--43
 []\OT1/cmr/m/n/12 Force Con-cept In-ventory opp-fyl-ler Phy-sPort[][][] sine kr
 i-te-ri-er til gg-ull-standard",
  []
+
+
+LaTeX Warning: Citation `smart' on page 3 undefined on input line 62.
 
 [3] [4]
 Overfull \hbox (10.2931pt too wide) in paragraph at lines 120--121
@@ -713,42 +728,140 @@ Overfull \hbox (14.78693pt too wide) in paragraph at lines 127--128
 skin. Sprsmalene
  []
 
-[6] [7]
-Kapittel 3.
-(oppgave.bbl [8
+[6]
+Overfull \hbox (25.35765pt too wide) in paragraph at lines 134--135
+[]\OT1/cmr/m/n/12 Undervisningen er lo-ka-li-sert i uli-ke klasse-rom pa Kron-
+stad. Ty-pisk romstrrelse
+ []
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
- [9
+
+Overfull \hbox (21.52077pt too wide) in paragraph at lines 136--137
+[]\OT1/cmr/m/n/12 Utvalge av opp-ga-ver til reg-nevingen er det sam-me som for
+ BYG103/BYG141,
+ []
+
+<./preScoreAll.png, id=95, 648.17157pt x 414.04688pt>
+File: ./preScoreAll.png Graphic file (type png)
+ <use ./preScoreAll.png>
+Package pdftex.def Info: ./preScoreAll.png used on input line 142.
+(pdftex.def)             Requested size: 187.19833pt x 119.57771pt.
+
+<./postScore.png, id=96, 648.17157pt x 414.79968pt>
+File: ./postScore.png Graphic file (type png)
+ <use ./postScore.png>
+Package pdftex.def Info: ./postScore.png used on input line 143.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+
+[7] <./preScore.png, id=102, 648.17157pt x 414.79968pt>
+File: ./preScore.png Graphic file (type png)
+ <use ./preScore.png>
+Package pdftex.def Info: ./preScore.png used on input line 149.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+File: ./postScore.png Graphic file (type png)
+
+<use ./postScore.png>
+Package pdftex.def Info: ./postScore.png used on input line 150.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+ <./absForbedring.png, id=104, 648.17157pt x 414.79968pt>
+File: ./absForbedring.png Graphic file (type png)
+
+<use ./absForbedring.png>
+Package pdftex.def Info: ./absForbedring.png used on input line 161.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+
+<./relForbedring.png, id=105, 648.17157pt x 414.79968pt>
+File: ./relForbedring.png Graphic file (type png)
+
+<use ./relForbedring.png>
+Package pdftex.def Info: ./relForbedring.png used on input line 162.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+
+<./absoluttForbedringScatter.png, id=107, 648.17157pt x 471.26062pt>
+File: ./absoluttForbedringScatter.png Graphic file (type png)
+
+<use ./absoluttForbedringScatter.png>
+Package pdftex.def Info: ./absoluttForbedringScatter.png used on input line 168
+.
+(pdftex.def)             Requested size: 187.19833pt x 136.1012pt.
+
+<./relativForbedringScatter.png, id=108, 648.17157pt x 471.26062pt>
+File: ./relativForbedringScatter.png Graphic file (type png)
+
+<use ./relativForbedringScatter.png>
+Package pdftex.def Info: ./relativForbedringScatter.png used on input line 169.
+
+(pdftex.def)             Requested size: 187.19833pt x 136.1012pt.
+ [8] [9 <./preScoreAll.png> <./postScore.png> <./preScore.png> <./absForbedring
+.png> <./relForbedring.png>]
+<./fys2.png, id=127, 648.17157pt x 414.79968pt>
+File: ./fys2.png Graphic file (type png)
+ <use ./fys2.png>
+Package pdftex.def Info: ./fys2.png used on input line 179.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+
+<./r2.png, id=128, 648.17157pt x 414.79968pt>
+File: ./r2.png Graphic file (type png)
+ <use ./r2.png>
+Package pdftex.def Info: ./r2.png used on input line 180.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+
+
+LaTeX Warning: Reference `fig:forkurs' on page 10 undefined on input line 184.
+
+<./real.png, id=129, 648.17157pt x 414.79968pt>
+File: ./real.png Graphic file (type png)
+ <use ./real.png>
+Package pdftex.def Info: ./real.png used on input line 186.
+(pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
+ [10] [11 <./absoluttForbedringScatter.png> <./relativForbedringScatter.png> <.
+/fys2.png> <./r2.png> <./real.png>] [12]
+Kapittel 3.
+
+Overfull \hbox (9.2653pt too wide) in paragraph at lines 216--217
+\OT1/cmr/m/n/12 Det prim-re malet for den-ne stu-di-en var a un-derske om '
+'om-vent klasserom''---
+ []
+
+No file oppgave.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+[13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (oppgave.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `oppgave.out' has not changed.
-(rerunfilecheck)             Checksum: 3DBCA7CF4704FB43664093F832269CCF;708.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+(rerunfilecheck)             Checksum: CE821925A55618F2D8D108877A6595C2;792.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 7053 strings out of 493333
- 100116 string characters out of 3139185
- 208888 words of memory out of 3000000
- 10459 multiletter control sequences out of 15000+200000
- 9836 words of font info for 36 fonts, out of 3000000 for 9000
+ 7114 strings out of 493333
+ 101263 string characters out of 3139185
+ 211991 words of memory out of 3000000
+ 10504 multiletter control sequences out of 15000+200000
+ 10143 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,28p,858b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,28p,1081b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb>
-Output written on oppgave.pdf (9 pages, 121487 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb>
+Output written on oppgave.pdf (13 pages, 194315 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
