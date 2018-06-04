@@ -240,6 +240,25 @@ som bekrefter vurderingen ut fra histogrammet, nemlig at vi ikke kan måle noen 
 I første semester av studiet tar studentene et matematikk-kurs som blant annet inkluderer temaer (derivasjon, integrasjon, vektorregning) som er viktig for å gjøre beregninger i fysikk-faget. Kurset har ulik fagkode og noen mindre forskjeller i pensum for de ulike studieretningene og studiestedene (DAT106: MAT108, BYG103: MAT100, BYG141: MA2-100), men den delen av pensum som er av størst betydning for fysikk-faget er inkludert i alle varianter. Studentene i DAT106 har i tillegg hatt et annet matematikk-kurs (MAT101) tidligere i studiet, men pensum i dette kurset er i svært liten grad relevant for den delen av fysikk-faget som denne studien omhandler. Spørsmålene i testen som er brukt i denne studien krever ingen beregninger, kun fysisk forståelse. Det er derfor ingen direkte kobling mellom det de har lært i matematikk-kurset og spørsmålene de blir bedt om å svare på
 
 
+\chapter{Diskusjon av studiedesign}
+Siden studien endte opp med et tallmateriale som ikke var tilstrekkelig til å gi et signifikant resultat angående det primære spørsmålet er det verdt å foreta en vurdering av studiedesignet og komme med noen forslagt til hvordan det kan forbedres til en eventuelt senere studie. Hovedproblemet med studien er at antallet studenter som deltok var for lavt. Det lave deltakertallet skyldes flere faktorer:
+\begin{itemize}
+\item
+Av praktiske årsaker har jeg kun involvert de studentene jeg selv foreleste for i inneværende semester i studien. Dette gjør at det er et svært begrenset antall studenter som var potensielle deltakere. Spesielt i kurset DAT106 er dette en begrensende faktor siden det er langt færre studenter per årskull på dataingeniørlinjen enn på bygg- og anleggsingeniørlinjen.
+\item
+Testene ble utført i forbindelse med forelesninger. Dette kan virke begge veier---det gjør det enkelt for de som møter til forelesning å velge å være med på testen, men samtidig er det en relativt stor andel av studentene som ikke går på forelesning og av den grunn ikke deltok.
+\item
+Det var frivillig å delta på testene og studentene hadde ingen egeninteresse av å delta utover at de fikk en anledning til å øve seg på å løse fysikk-oppgaver.  Spesielt på testen etter undervisningsperioden ser denne faktoren ut til å vært av stor betydning, da langt færre studenter var med på denne testen sammenlinget med testen før undervisningsperioden.
+\item
+Behovet for å koble svarene fra samme student på de to testene samtidig som testen skulle være anonym var en utfording. Løsningen som ble valgt var at studentene logget inn med et selvvalgt ''nick-name'' som de måtte bruke ved begge testene. Selv om listen over ''nick-names'' som var brukt ved første test ble gjort tilgjengelig ved andre test var det en god del mangel på overlapp. Dermed var det en del av det innsamlede datamaterialet som ikke kunne brukes til analysen for å besvare det primære spørsmålet i studien.
+\end{itemize}
+Det viktigste bidraget til å øke data-mengden er å øke antall potensielle deltakere i studien. I praksis vil det si at studien måtte utføres over flere år slik at flere kull blir testet. I diskusjonen av resultatene ble det vist at for å kunne forvente å få signifikante resultater trengs det minst en tredobling av antall studie-deltakere. Dette betyr at studien antakelig må gå over tre år---noe som er relativt omfattende, men ikke helt urealistisk. Hvis andelen av studentene fra hvert årskull som deltar kan økes vesentlig er det mulig at det er tilstrekkelig å gjøre studien over to år. Fordi testen skal gjøres uten diskusjon eller bruk av hjelpemidler, og fordi testspørsmålene skal gjøres utilgjengelig igjen straks etter at testen er gjennomført er det mer eller mindre nødvendig at testen gjennomføres med studentene samlet i ett rom. Det er derfor neppe aktuelt å gjennomføre testen på annet vis enn i forbindelse med forelesning. Det er også vanskelig å gjøre testen obligatorisk for studentene da dette vil kreve at den kommer inn som en del av de obligatoriske kravene i emnebeskrivelsen til kurset. Dermed er det de to siste punktene på listen ovenfor som er mest aktuelle å ta tak i. Egeninteressen til studentene for å delta i studien er til stede, men det kreves nok en del overbevisning for at de skal innse det tidlig i semesteret mens det fremdeles er lenge igjen til eksamen. 
+
+Det siste punktet på listen er et teknisk problem som relativt enkelt kan løses selv om det krever en ikke ubetydelig engangs-innsats. Det kan programmeres en egen innlogging der studentene logger inn med for eksempel studentnummer som blir behandlet av en hash-algoritme før det lagres. Siden en hash-algoritme er enveis vil dette gi en unik identifikator for hver student som er lik ved begge tester, men som ikke kan spores tilbake til studentnummeret. Dermed er anonymiteten ivaretatt samtidig som sannsynligheten for manglende kobling mellom resultatet fra første og andre test er tilnærmet eliminert.
+
+\appendix
+\chapter{Merknader til gjennomføring av testene}
+
 \bibliographystyle{apalike}
 \bibliography{referanser}
 \end{document}

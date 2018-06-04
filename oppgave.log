@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.8.21)  4 JUN 2018 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.9)  4 JUN 2018 21:18
 entering extended mode
 **./oppgave.tex
 (oppgave.tex
-LaTeX2e <2016/03/31> patch level 3
+LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -28,11 +28,11 @@ Package: babel 2016/04/23 3.9r The Babel package
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-norsk\norsk.ldf
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-norsk\norsk.ldf"
 Language: norsk 2012/08/06 v2.0i Norsk support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
@@ -42,7 +42,7 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 )
 Package babel Info: Making " an active character on input line 113.
 ))
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks14
 \labelindent=\skip43
@@ -60,7 +60,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -71,7 +71,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gread@gobject=\count90
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
@@ -91,20 +91,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count92
 \leftroot@=\count93
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count94
 \DOTSCASE@=\count95
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen107
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count96
 \c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
@@ -125,10 +125,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip45
 \multlinetaggap=\skip46
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen114
 \WF@size=\dimen115
 \c@WF@wrappedlines=\count103
@@ -144,7 +144,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -472,10 +472,9 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip47
-\multirow@cnta=\count104
-\multirow@cntb=\count105
+\multirow@cntb=\count104
 \multirow@dima=\skip48
 \bigstrutjot=\dimen118
 )
@@ -483,7 +482,7 @@ Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen119
 \extrarowheight=\dimen120
 \NC@list=\toks25
@@ -495,10 +494,10 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen123
 \TX@target=\dimen124
 \TX@delta=\dimen125
-\TX@cols=\count106
+\TX@cols=\count105
 \TX@ftn=\toks26
 )
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -558,15 +557,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen126
-\Hy@linkcounter=\count107
-\Hy@pagecounter=\count108
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count109
+\Hy@SavedSpaceFactor=\count108
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -578,15 +577,15 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count110
+\c@Hy@tempcnt=\count109
 
-(C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen127
-\Fld@menulength=\count111
+\Fld@menulength=\count110
 \Field@Width=\dimen128
 \Fld@charsize=\dimen129
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -598,17 +597,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count112
-\c@Item=\count113
-\c@Hfootnote=\count114
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count115
-\c@bookmark@seq@number=\count116
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -638,18 +637,18 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
- (C:\Users\trbu.HVL\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
+\scratchcounter=\count116
 \scratchdimen=\dimen130
 \scratchbox=\box30
-\nofMPsegments=\count118
-\nofMParguments=\count119
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count120
+\MPscratchCnt=\count119
 \MPscratchDim=\dimen131
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -673,7 +672,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count123
+\c@section@level=\count122
 )
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
@@ -688,7 +687,7 @@ Kapittel 1.
 [1
 
 
-{C:/Users/trbu.HVL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Kapittel 2.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -740,19 +739,19 @@ Overfull \hbox (21.52077pt too wide) in paragraph at lines 136--137
  BYG103/BYG141,
  []
 
-<./preScoreAll.png, id=115, 648.17157pt x 414.04688pt>
+<./preScoreAll.png, id=123, 648.17157pt x 414.04688pt>
 File: ./preScoreAll.png Graphic file (type png)
  <use ./preScoreAll.png>
 Package pdftex.def Info: ./preScoreAll.png used on input line 142.
 (pdftex.def)             Requested size: 187.19833pt x 119.57771pt.
 
-<./postScore.png, id=116, 648.17157pt x 414.79968pt>
+<./postScore.png, id=124, 648.17157pt x 414.79968pt>
 File: ./postScore.png Graphic file (type png)
  <use ./postScore.png>
 Package pdftex.def Info: ./postScore.png used on input line 143.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-[7] <./preScore.png, id=122, 648.17157pt x 414.79968pt>
+[7] <./preScore.png, id=130, 648.17157pt x 414.79968pt>
 File: ./preScore.png Graphic file (type png)
  <use ./preScore.png>
 Package pdftex.def Info: ./preScore.png used on input line 150.
@@ -762,21 +761,21 @@ File: ./postScore.png Graphic file (type png)
 <use ./postScore.png>
 Package pdftex.def Info: ./postScore.png used on input line 151.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
- <./absForbedring.png, id=124, 648.17157pt x 414.79968pt>
+ <./absForbedring.png, id=132, 648.17157pt x 414.79968pt>
 File: ./absForbedring.png Graphic file (type png)
 
 <use ./absForbedring.png>
 Package pdftex.def Info: ./absForbedring.png used on input line 162.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-<./relForbedring.png, id=125, 648.17157pt x 414.79968pt>
+<./relForbedring.png, id=133, 648.17157pt x 414.79968pt>
 File: ./relForbedring.png Graphic file (type png)
 
 <use ./relForbedring.png>
 Package pdftex.def Info: ./relForbedring.png used on input line 163.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-<./absoluttForbedringScatter.png, id=127, 648.17157pt x 471.26062pt>
+<./absoluttForbedringScatter.png, id=135, 648.17157pt x 471.26062pt>
 File: ./absoluttForbedringScatter.png Graphic file (type png)
 
 <use ./absoluttForbedringScatter.png>
@@ -784,7 +783,7 @@ Package pdftex.def Info: ./absoluttForbedringScatter.png used on input line 169
 .
 (pdftex.def)             Requested size: 187.19833pt x 136.1012pt.
 
-<./relativForbedringScatter.png, id=128, 648.17157pt x 471.26062pt>
+<./relativForbedringScatter.png, id=136, 648.17157pt x 471.26062pt>
 File: ./relativForbedringScatter.png Graphic file (type png)
 
 <use ./relativForbedringScatter.png>
@@ -793,7 +792,7 @@ Package pdftex.def Info: ./relativForbedringScatter.png used on input line 170.
 (pdftex.def)             Requested size: 187.19833pt x 136.1012pt.
  [8] [9 <./preScoreAll.png> <./postScore.png> <./preScore.png> <./absForbedring
 .png> <./relForbedring.png>]
-<./fys2.png, id=148, 648.17157pt x 414.79968pt>
+<./fys2.png, id=156, 648.17157pt x 414.79968pt>
 File: ./fys2.png Graphic file (type png)
  <use ./fys2.png>
 Package pdftex.def Info: ./fys2.png used on input line 180.
@@ -802,7 +801,7 @@ Package pdftex.def Info: ./fys2.png used on input line 180.
 
 LaTeX Warning: Reference `fig:forkurs' on page 10 undefined on input line 185.
 
-<./real.png, id=149, 648.17157pt x 414.79968pt>
+<./real.png, id=157, 648.17157pt x 414.79968pt>
 File: ./real.png Graphic file (type png)
  <use ./real.png>
 Package pdftex.def Info: ./real.png used on input line 187.
@@ -832,16 +831,23 @@ Overfull \hbox (18.00381pt too wide) in paragraph at lines 218--218
 
 LaTeX Warning: Reference `fig:fys2' on page 15 undefined on input line 226.
 
-[15]
+[15] [16]
+Kapittel 4.
+[17
+
+] [18] [19]
+Tillegg A.
 No file oppgave.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
-[16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+[20
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (oppgave.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `oppgave.out' has not changed.
-(rerunfilecheck)             Checksum: 6259678654A203270E11984B3FFB2964;1233.
+(rerunfilecheck)             Checksum: 7AEB2B37D6B6C7E406940AED6B470CBD;1374.
 
 
 LaTeX Warning: There were undefined references.
@@ -849,16 +855,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 7126 strings out of 493333
- 101419 string characters out of 3139185
- 203674 words of memory out of 3000000
- 10510 multiletter control sequences out of 15000+200000
+ 7138 strings out of 493333
+ 101238 string characters out of 3139192
+ 203755 words of memory out of 3000000
+ 10516 multiletter control sequences out of 15000+200000
  10143 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,28p,1435b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,11n,28p,1457b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
@@ -868,9 +874,9 @@ public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on oppgave.pdf (16 pages, 215406 bytes).
+Output written on oppgave.pdf (20 pages, 222440 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
