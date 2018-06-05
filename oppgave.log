@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.8.21)  5 JUN 2018 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.8.21)  5 JUN 2018 14:41
 entering extended mode
 **./oppgave.tex
 (oppgave.tex
@@ -685,122 +685,131 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 
 Kapittel 1.
+
+LaTeX Warning: Citation `doi:10.1119/1.4964354' on page 1 undefined on input li
+ne 22.
+
+
+Overfull \hbox (39.38026pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/12 le kon-sep-ter [[], [], []].
+ []
+
 [1
 
 
 {C:/Users/trbu.HVL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Kapittel 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
  [2
 
 ]
-Overfull \hbox (14.26816pt too wide) in paragraph at lines 41--43
+Overfull \hbox (14.26816pt too wide) in paragraph at lines 43--45
 []\OT1/cmr/m/n/12 Force Con-cept In-ventory opp-fyl-ler Phy-sPort[][][] sine kr
 i-te-ri-er til gg-ull-standard",
  []
 
 [3] [4]
-Overfull \hbox (10.2931pt too wide) in paragraph at lines 120--121
+Overfull \hbox (10.2931pt too wide) in paragraph at lines 122--123
 \OT1/cmr/m/n/12 Kurset BYG103/BYG141 er et fel-les-kurs for bygg- og anleggsing
 enir-studenter
  []
 
 [5]
-Overfull \hbox (14.78693pt too wide) in paragraph at lines 127--128
+Overfull \hbox (14.78693pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/12 Kvalitative fler-valgssprsmal be-svart via te-le-fon/datama
 skin. Sprsmalene
  []
 
-[6] <./preScoreAll.png, id=129, 648.17157pt x 414.04688pt>
+[6] <./preScoreAll.png, id=135, 648.17157pt x 414.04688pt>
 File: ./preScoreAll.png Graphic file (type png)
 
 <use ./preScoreAll.png>
-Package pdftex.def Info: ./preScoreAll.png used on input line 142.
+Package pdftex.def Info: ./preScoreAll.png used on input line 144.
 (pdftex.def)             Requested size: 187.19833pt x 119.57771pt.
- <./postScore.png, id=130, 648.17157pt x 414.79968pt>
+ <./postScore.png, id=136, 648.17157pt x 414.79968pt>
 File: ./postScore.png Graphic file (type png)
 
 <use ./postScore.png>
-Package pdftex.def Info: ./postScore.png used on input line 143.
+Package pdftex.def Info: ./postScore.png used on input line 145.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
- [7] <./preScore.png, id=136, 648.17157pt x 414.79968pt>
+ [7] <./preScore.png, id=142, 648.17157pt x 414.79968pt>
 File: ./preScore.png Graphic file (type png)
 
 <use ./preScore.png>
-Package pdftex.def Info: ./preScore.png used on input line 150.
+Package pdftex.def Info: ./preScore.png used on input line 152.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 File: ./postScore.png Graphic file (type png)
  <use ./postScore.png>
-Package pdftex.def Info: ./postScore.png used on input line 151.
+Package pdftex.def Info: ./postScore.png used on input line 153.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-<./absForbedring.png, id=138, 648.17157pt x 414.79968pt>
+<./absForbedring.png, id=144, 648.17157pt x 414.79968pt>
 File: ./absForbedring.png Graphic file (type png)
 
 <use ./absForbedring.png>
-Package pdftex.def Info: ./absForbedring.png used on input line 162.
+Package pdftex.def Info: ./absForbedring.png used on input line 164.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-<./relForbedring.png, id=139, 648.17157pt x 414.79968pt>
+<./relForbedring.png, id=145, 648.17157pt x 414.79968pt>
 File: ./relForbedring.png Graphic file (type png)
 
 <use ./relForbedring.png>
-Package pdftex.def Info: ./relForbedring.png used on input line 163.
+Package pdftex.def Info: ./relForbedring.png used on input line 165.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-<./absoluttForbedringScatter.png, id=141, 648.17157pt x 471.26062pt>
+<./absoluttForbedringScatter.png, id=147, 648.17157pt x 471.26062pt>
 File: ./absoluttForbedringScatter.png Graphic file (type png)
 
 <use ./absoluttForbedringScatter.png>
-Package pdftex.def Info: ./absoluttForbedringScatter.png used on input line 169
+Package pdftex.def Info: ./absoluttForbedringScatter.png used on input line 171
 .
 (pdftex.def)             Requested size: 187.19833pt x 136.1012pt.
 
-<./relativForbedringScatter.png, id=142, 648.17157pt x 471.26062pt>
+<./relativForbedringScatter.png, id=148, 648.17157pt x 471.26062pt>
 File: ./relativForbedringScatter.png Graphic file (type png)
 
 <use ./relativForbedringScatter.png>
-Package pdftex.def Info: ./relativForbedringScatter.png used on input line 170.
+Package pdftex.def Info: ./relativForbedringScatter.png used on input line 172.
 
 (pdftex.def)             Requested size: 187.19833pt x 136.1012pt.
  [8] [9 <./preScoreAll.png> <./postScore.png> <./preScore.png> <./absForbedring
 .png> <./relForbedring.png>]
-<./fys2.png, id=162, 648.17157pt x 414.79968pt>
+<./fys2.png, id=168, 648.17157pt x 414.79968pt>
 File: ./fys2.png Graphic file (type png)
  <use ./fys2.png>
-Package pdftex.def Info: ./fys2.png used on input line 181.
+Package pdftex.def Info: ./fys2.png used on input line 183.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
 
-LaTeX Warning: Reference `fig:forkurs' on page 10 undefined on input line 187.
+LaTeX Warning: Reference `fig:forkurs' on page 10 undefined on input line 189.
 
-<./real.png, id=163, 648.17157pt x 414.79968pt>
+<./real.png, id=169, 648.17157pt x 414.79968pt>
 File: ./real.png Graphic file (type png)
  <use ./real.png>
-Package pdftex.def Info: ./real.png used on input line 189.
+Package pdftex.def Info: ./real.png used on input line 191.
 (pdftex.def)             Requested size: 187.19833pt x 119.79514pt.
 
-<./mat100.png, id=166, 648.17157pt x 470.50781pt>
+<./mat100.png, id=172, 648.17157pt x 470.50781pt>
 File: ./mat100.png Graphic file (type png)
  <use ./mat100.png>
-Package pdftex.def Info: ./mat100.png used on input line 198.
+Package pdftex.def Info: ./mat100.png used on input line 200.
 (pdftex.def)             Requested size: 187.19833pt x 135.88377pt.
  [10]
 [11 <./absoluttForbedringScatter.png> <./relativForbedringScatter.png> <./fys2.
 png> <./real.png>] [12 <./mat100.png>]
 Kapittel 3.
 
-Overfull \hbox (2.04572pt too wide) in paragraph at lines 208--208
+Overfull \hbox (2.04572pt too wide) in paragraph at lines 210--210
 []\OT1/cmr/bx/n/17.28 Sammenligning av tra-di-sjo-nell fore-les-ning
  []
 
 
-Overfull \hbox (9.2653pt too wide) in paragraph at lines 209--210
+Overfull \hbox (9.2653pt too wide) in paragraph at lines 211--212
 \OT1/cmr/m/n/12 Det prim-re malet for den-ne stu-di-en var a un-derske om '
 'om-vent klasserom''---
  []
@@ -808,13 +817,13 @@ Overfull \hbox (9.2653pt too wide) in paragraph at lines 209--210
 [13
 
 ] [14]
-Overfull \hbox (18.00381pt too wide) in paragraph at lines 228--228
+Overfull \hbox (18.00381pt too wide) in paragraph at lines 230--230
 []\OT1/cmr/bx/n/17.28 Sammenheng mel-lom test-resultater og stu-
  []
 
 [15]
 
-LaTeX Warning: Reference `fig:fys2' on page 16 undefined on input line 236.
+LaTeX Warning: Reference `fig:fys2' on page 16 undefined on input line 238.
 
 [16] [17]
 Kapittel 4.
@@ -824,17 +833,17 @@ Kapittel 4.
 Tillegg A.
 (oppgave.bbl [21
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
- [22
+] [22
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (oppgave.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `oppgave.out' has not changed.
-(rerunfilecheck)             Checksum: 7AEB2B37D6B6C7E406940AED6B470CBD;1374.
+(rerunfilecheck)             Checksum: 51349A5FB43CE7870D0118171968BA72;1410.
 
 
 LaTeX Warning: There were undefined references.
@@ -842,13 +851,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 7156 strings out of 493333
- 101831 string characters out of 3139185
- 205246 words of memory out of 3000000
- 10521 multiletter control sequences out of 15000+200000
+ 7164 strings out of 493333
+ 101996 string characters out of 3139185
+ 205429 words of memory out of 3000000
+ 10525 multiletter control sequences out of 15000+200000
  10143 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,11n,28p,1875b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -861,9 +870,9 @@ public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on oppgave.pdf (22 pages, 239824 bytes).
+Output written on oppgave.pdf (23 pages, 242834 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
