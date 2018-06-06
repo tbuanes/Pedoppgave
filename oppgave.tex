@@ -140,8 +140,8 @@ Utvalget av oppgaver til regneøvingen er det samme som for BYG103/ BYG141, og o
 
 
 \subsection{Resultater}
-Figur \ref{fig:testScore} sammenligner fordelingen av testresultatene før (venstre) og etter (høyre) undervisningen for de to studentgruppene. Resultatene fra testen før undervisning inkluderer alle studentene i datasettet preData (115+27 studenter), mens resultatene fra testen etter undervisning inkluderer studentene fra datasettet matchPreData (89+24 studenter). Når en stor andel av studentene som deltok i testen første gang ikke deltok i testen andre gang kan resultater tolket ut fra disse histogrammene skyldes en utvalgsbias. Figur \ref{fig:testScoreMatch} viser derfor de samme histogrammene, men kun med studenter fra datasettet matchPreData inkludert. Histogrammet for resultater etter test er identisk i figur \ref{fig:testScore} og \ref{fig:testScoreMatch}, men er gjentatt for å gjøre sammenligningen enklere.
-\begin{figure}[p]
+Figur \ref{fig:testScore} sammenligner fordelingen av testresultatene før (venstre) og etter (høyre) undervisningen for de to studentgruppene. Resultatene fra testen før undervisning inkluderer alle studentene i datasettet preData (113+27 studenter), mens resultatene fra testen etter undervisning inkluderer studentene fra datasettet matchPreData (87+24 studenter). Når en stor andel av studentene som deltok i testen første gang ikke deltok i testen andre gang kan resultater tolket ut fra disse histogrammene skyldes en utvalgsbias. Figur \ref{fig:testScoreMatch} viser derfor de samme histogrammene, men kun med studenter fra datasettet matchPreData inkludert. Histogrammet for resultater etter test er identisk i figur \ref{fig:testScore} og \ref{fig:testScoreMatch}, men er gjentatt for å gjøre sammenligningen enklere.
+\begin{figure}[tp]
 	\includegraphics[width=.48\textwidth]{./preScoreAll}
 	\includegraphics[width=.48\textwidth]{./postScore}
 	\caption{Sammenligning av testresultater for studenter fra kursene DAT106 og  BYG103/BYG141 før (venstre) og etter (høyre) undervisningsperioden. Histogrammet med før-resultater 
@@ -149,7 +149,7 @@ baserer seg på flere studenter enn histogrammet for etter-resultater siden fær
 	\label{fig:testScore}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[tp]
 	\includegraphics[width=.48\textwidth]{./preScore}
 	\includegraphics[width=.48\textwidth]{./postScore}
 	\caption{Sammenligning av testresultater for studenter fra kursene DAT106 og  BYG103/BYG141 før (venstre) og etter (høyre) undervisningsperioden. Kun studenter som deltok på både før- og etter-testene er inkludert i histogrammene.}
@@ -161,14 +161,14 @@ For de studentene som deltok på både før- og etter-testen er utviklingen i re
 	\eta_\text{rel} = \frac{S_\text{etter}-S_\text{før}}{1 - S_\text{før}}.
 \end{displaymath}
 Den relative forbedringen kan tolkes som hvor stor andel av spørsmålene som var feil besvart første gang som ble riktig besvart andre gang. Merk at denne variablen har en svakhet for studenter som hadde et svært godt resultat ved første test: Hvis en av disse studenten gjør kun \'en feil mer i andre forsøk enn i første forsøk får den relative forbedringen en stor negativ verdi.
-\begin{figure}[p]
+\begin{figure}[tp]
 	\includegraphics[width=.48\textwidth]{./absForbedring}
 	\includegraphics[width=.48\textwidth]{./relForbedring}
 	\caption{Sammenligning av forbedring fra test før undervisningsperiode til test etter undervisningsperiode for DAT106 og BYG103/BYG141. Venstre histogram viser absolutt forbedring, mens høyre histogram viser den relative forbedringen (definert i teksten). }
 	\label{fig:forbedring}
 \end{figure}
 For å kunne undersøke hvorvidt studentens forkunnskaper påvirker hvor godt resultat de ulike gir er det i figur \ref{fig:scatter} vist resultat av før-testen plottet mot absolutt forbedring (venstre) og relativ forbedring (høyre). 
-\begin{figure}[p]
+\begin{figure}[tp]
 	\includegraphics[width=.48\textwidth]{./absoluttForbedringScatter}
 	\includegraphics[width=.48\textwidth]{./relativForbedringScatter}
 	\caption{Spredningsplott som viser sammenheng mellom andel riktig på test før undervisningsperioden og absolutt forbedring (venstre) eller relativ forberding (høyre).}
@@ -179,7 +179,7 @@ For å kunne undersøke hvorvidt studentens forkunnskaper påvirker hvor godt re
 Datasettet som er samlet inn er ikke stort nok til å gjøre en studie av i hvilken grad ulike aspekter ved studentenes bakgrunn før de startet på DAT106 eller BYG103/BYG141 påvirker læringsutbyttet. Derfor begrenser dette avsnittet seg til å presentere resultater for sammenhengen mellom studentenes bakgrunn og resultatene de oppnådde på testen før undrevisningsperioden. Dette har imidlertid egen-interesse utover hovedmålsetningen med prosjektet mitt, og er derfor verdt å undersøke. Datasettet som er brukt for denne delen av studien er matchPreData. I noen tilfeller er imidlertid ikke alle studentene i dette datasettet inkludert, da matchingen ikke krever at de har svart på alle spørsmålene om studiebakgrunn.
 
 Figur \ref{fig:fysmat} viser andel riktig på før-testen for studenter med/uten Fysikk 2 (venstre). Dette er kurs som ikke utgjør en del av opptakskravet for ingeniørstudiene, men som gir studentene en større fordypning i fysikk og matematikk enn minimumskravet. Det er dermed interessant å undersøke om dette påvirker testresultatene.
-\begin{figure}[p]
+\begin{figure}[tp]
 \begin{center}
 	\includegraphics[width=.48\textwidth]{./fys2}
 %	\includegraphics[width=.48\textwidth]{./r2}
@@ -189,7 +189,7 @@ Figur \ref{fig:fysmat} viser andel riktig på før-testen for studenter med/uten
 \end{figure}
 
 Elever som ikke har tilstrekkelig fordypning i matematikk og fysikk fra videregående kan oppnå påkrevd kompetanse for å starte på ingeniørstudier gjennom å ta enten forkurs eller realfagskurs {\color{red}[Fyll inn detaljer. Snakk med Kristine]}. Figur \ref{fig:forkurs} viser andel riktig på før-testen for studenter som har bakrunn fra enten realfagskurs (venstre) eller forkurs (høyre). I begge tilfeller er resultatene sammenlignet med studenter som er tatt opp på studiet med tilstrekkelig fordypning i matematikk og fysikk fra videregående skole.
-\begin{figure}[p]
+\begin{figure}[tp]
 	\includegraphics[width=.48\textwidth]{./real}
 	\includegraphics[width=.48\textwidth]{./forkurs}
 	\caption{ Sammenligning av resultater for studenter som har tilstrekkelig matematikk- og fysikk-bakgrunn fra videregående skole (blå) med studenter som har tatt realfagskurs (venstre) eller forkurs (høyre) for å oppfylle opptakskravet til ingeniørstudier (rød).}
@@ -197,7 +197,7 @@ Elever som ikke har tilstrekkelig fordypning i matematikk og fysikk fra videreg�
 \end{figure}
 
 Matematikk er et viktig verktøy i fysikk-faget, og det er derfor interessant å undersøke om det er korrelasjon mellom hvor godt studenter mestrer matematikk og hvordan de presterer på fysikk-testen. Som proxy på matematikk-nivået til studentene har jeg brukt karakteren de fikk i matematikk-kurset MAT100/MAT108/MA2-100\footnote{Det er ulike matematikk-kurs for de ulike studieprogrammene og studiestedene, men alle disse tre kursene er tilstrekkelig like til at sammenligningen blir representativ}. Gjennomsnittlig andel riktig på testen i denne studien fordelt på karakterene A-F er vist i figur \ref{fig:mat100}. På histogrammet er det også vist en estimator for usikkerheten til gjennomsnittet av de ulike populasjonene. Merk at det kun er fire studenter som hadde karakteren F. En av studentene med karakteren F gjorde det svært bra på testen og trekker derfor gjennomsnittet langt oppover. Det er også verdt å notere at estimatoren for usikkerhet selv er svært usikker når populasjonen er så liten som i dette tilfellet.
-\begin{figure}[p]
+\begin{figure}[tp]
 \begin{center}
 	\includegraphics[width=.48\textwidth]{./mat100}
 \end{center}
