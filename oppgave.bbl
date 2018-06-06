@@ -1,8 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[sma, ]{smart}
-
-
 \bibitem[Hake, 1998]{doi:10.1119/1.18809}
 Hake, R.~R. (1998).
 \newblock Interactive-engagement versus traditional methods: A
@@ -20,6 +17,11 @@ Hestenes, D., Wells, M., and Swackhamer, G. (1992).
 \newblock Force concept inventory.
 \newblock 30:141--158.
 
+\bibitem[Knight, 2004]{FiveEasyLessons}
+Knight, R.~D. (2004).
+\newblock {\em Five Easy Lessons}.
+\newblock Addison Wesley.
+
 \bibitem[{Madsen} et~al., 2014]{2014arXiv1404.6500M}
 {Madsen}, A., {McKagan}, S.~B., and {Sayre}, E.~C. (2014).
 \newblock {Best Practices for Administering Concept Inventories}.
@@ -32,6 +34,9 @@ Meltzer, D. (2002).
   scores.
 \newblock {\em American Journal of Physics}, 70(12):1259--1268.
 
+\bibitem[Suite, ]{smart}
+Suite, S.~L.
+
 \bibitem[Thornton and Sokoloff, 1998]{doi:10.1119/1.18863}
 Thornton, R.~K. and Sokoloff, D.~R. (1998).
 \newblock Assessing student learning of newton’s laws: The force and motion
@@ -39,11 +44,22 @@ Thornton, R.~K. and Sokoloff, D.~R. (1998).
   lecture curricula.
 \newblock {\em American Journal of Physics}, 66(4):338--352.
 
+\bibitem[UHR, 2011]{rammeplan}
+UHR (2011).
+\newblock Nasjonale retningslinjer for ingeniørutdanning.
+
 \bibitem[Vinitsky-Pinsky and Galili, 2014]{VINITSKYPINSKY2014611}
 Vinitsky-Pinsky, L. and Galili, I. (2014).
 \newblock The need to clarify the relationship between physics and mathematics
   in science curriculum: Cultural knowledge as possible framework.
 \newblock {\em Procedia - Social and Behavioral Sciences}, 116:611 -- 616.
 \newblock 5th World Conference on Educational Sciences.
+
+\bibitem[Von~Korff et~al., 2016]{doi:10.1119/1.4964354}
+Von~Korff, J., Archibeque, B., Gomez, K.~A., Heckendorf, T., McKagan, S.~B.,
+  Sayre, E.~C., Schenk, E.~W., Shepherd, C., and Sorell, L. (2016).
+\newblock Secondary analysis of teaching methods in introductory physics: A 50
+  k-student study.
+\newblock {\em American Journal of Physics}, 84(12):969--974.
 
 \end{thebibliography}
