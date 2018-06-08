@@ -34,12 +34,9 @@ Meltzer, D. (2002).
   scores.
 \newblock {\em American Journal of Physics}, 70(12):1259--1268.
 
-\bibitem[og~høyskolerådet, 2011]{rammeplan}
-og~høyskolerådet, U. (2011).
-\newblock Nasjonale retningslinjer for ingeniørutdanning.
-
-\bibitem[Suite, ]{smart}
-Suite, S.~L.
+\bibitem[{SMART Learning Suite}, ]{smart}
+{SMART Learning Suite}.
+\newblock https://education.smarttech.com/products/notebook.
 
 \bibitem[Thornton and Sokoloff, 1998]{doi:10.1119/1.18863}
 Thornton, R.~K. and Sokoloff, D.~R. (1998).
@@ -47,6 +44,16 @@ Thornton, R.~K. and Sokoloff, D.~R. (1998).
   conceptual evaluation and the evaluation of active learning laboratory and
   lecture curricula.
 \newblock {\em American Journal of Physics}, 66(4):338--352.
+
+\bibitem[{Universitets- og høyskolerådet}, 2011]{rammeplan}
+{Universitets- og høyskolerådet} (2011).
+\newblock Nasjonale retningslinjer for ingeniørutdanning.
+
+\bibitem[{Van Heuvelen}, 1991]{1991AmJPh..59..891V}
+{Van Heuvelen}, A. (1991).
+\newblock {Learning to think like a physicist: A review of research-based
+  instructional strategies}.
+\newblock {\em American Journal of Physics}, 59:891--897.
 
 \bibitem[Vinitsky-Pinsky and Galili, 2014]{VINITSKYPINSKY2014611}
 Vinitsky-Pinsky, L. and Galili, I. (2014).
@@ -61,5 +68,10 @@ Von~Korff, J., Archibeque, B., Gomez, K.~A., Heckendorf, T., McKagan, S.~B.,
 \newblock Secondary analysis of teaching methods in introductory physics: A 50
   k-student study.
 \newblock {\em American Journal of Physics}, 84(12):969--974.
+
+\bibitem[Wittek and Brandmo, 2016]{stromso}
+Wittek, L. and Brandmo, C. (2016).
+\newblock {\em Når læring er det viktigste}, chapter~2, pages 19--39.
+\newblock Cappelen Damm.
 
 \end{thebibliography}

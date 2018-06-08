@@ -3,4 +3,5 @@ The style file: apalike.bst
 Database file #1: referanser.bib
 Warning--empty journal in 1992FCI
 Warning--empty year in smart
-(There were 2 warnings)
+Warning--can't use both author and editor fields in stromso
+(There were 3 warnings)
